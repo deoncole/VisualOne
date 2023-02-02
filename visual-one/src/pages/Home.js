@@ -46,8 +46,8 @@ const Home = () => {
     {/* Start of way to begin process */}
     <MDBContainer className="mt-5 mb-5">
         <h2 className="mt-3 mb-5 d-flex align-items-center justify-content-center">Get Your Campaign In 3 Steps</h2>
-        <MDBRow>
-            <MDBCol className="d-flex flex-row align-items-center ms-5">
+        <MDBRow className="d-flex flex-row ">
+            <MDBCol className="d-flex align-items-center ms-5">
                 <img
                     src={submit}
                     className='img-fluid rounded' 
@@ -57,8 +57,8 @@ const Home = () => {
                 <p className=" ms-5 fs-4"><span className="fs-4 fw-bolder">1.</span> Submit a request for your customized propsal.</p>
             </MDBCol>
         </MDBRow>
-        <MDBRow className="mt-4 border-top border-3 border-warning">
-            <MDBCol className="d-flex flex-row align-items-center me-5 mt-4">
+        <MDBRow className="flex-row mt-4 border-top border-3 border-warning">
+            <MDBCol className="d-flex align-items-center me-5 mt-4">
                 <p className=" ms-5 fs-4"><span className="fs-4 fw-bolder">2.</span> Recieve your no obligation call to discuss your needs and how we can tailor a proposal that will directly meet your goals.</p>
                 <img
                     src={consult}
@@ -68,8 +68,8 @@ const Home = () => {
                 />
             </MDBCol>
         </MDBRow>
-        <MDBRow className="mt-4 border-top border-3 border-warning">
-            <MDBCol className="d-flex flex-row align-items-center ms-5 mt-4">
+        <MDBRow className="flex-row mt-4 border-top border-3 border-warning">
+            <MDBCol className="d-flex align-items-center ms-5 mt-4">
                 <img
                     src={marketing}
                     className='img-fluid rounded' 
@@ -84,7 +84,7 @@ const Home = () => {
     {/* start testimonial section */}
     <MDBContainer className="mt-5 mb-5 border-top text-center">
         <h2 className="mt-3 mb-5 d-flex align-items-center justify-content-center">Testimonials</h2>
-        <MDBRow>
+        <MDBRow className="d-flex">
             <MDBCol className="d-flex flex-column align-items-center justify-content-center border-end border-2 border-dark">
                 <div>
                     <img
