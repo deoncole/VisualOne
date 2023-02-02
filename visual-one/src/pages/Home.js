@@ -45,7 +45,7 @@ const Home = () => {
 
     {/* Start of way to begin process */}
     <MDBContainer className="mt-5 mb-5">
-        <h2 className="mt-3 mb-5 d-flex align-items-center justify-content-center">Get Your Campaign In 3 Steps</h2>
+        <h2 className="mt-3 mb-5 d-flex align-items-center justify-content-center">Get A Personalized Campaign In 3 Steps</h2>
         <MDBRow className="d-flex flex-row ">
             <MDBCol className="d-flex align-items-center ms-5">
                 <img
