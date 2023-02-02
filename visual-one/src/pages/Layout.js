@@ -20,7 +20,7 @@ const Layout = () => {
       {/* Beginning of the Navbar */}
       <MDBNavbar expand="lg" light bgColor="light">
         <MDBContainer fluid>
-          <MDBNavbarBrand href="#home">
+          <MDBNavbarBrand href="/">
             <img
               src={logo}
               height="75"
@@ -31,7 +31,7 @@ const Layout = () => {
           </MDBNavbarBrand>
           <MDBNavbarNav right fullWidth={false} className="mb-2 mb-lg-0">
             <MDBNavbarItem>
-              <MDBNavbarLink href="#About">About</MDBNavbarLink>
+              <MDBNavbarLink href="/about">About</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink href="#Services">Services</MDBNavbarLink>
@@ -56,9 +56,9 @@ const Layout = () => {
         bgColor="light"
         className="text-center text-lg-start text-muted"
       >
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <div className="me-5 d-none d-lg-block">
-            <span>Get Connected with us on our social networks</span>
+        <section className="d-flex justify-content-center justify-content-lg p-4 border-bottom">
+          <div className="me-4 d-none d-lg-block">
+            <span><strong><em>Get Connected with us on our social platforms</em></strong></span>
           </div>
           <div>
             <a href="#facebook" className="me-4 text-reset">
@@ -92,13 +92,13 @@ const Layout = () => {
             <MDBRow className="mt-3">
               <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <MDBIcon color="secondary" icon="gem" className="me-3" />
-                  Company name
+                  <MDBIcon icon="gem" className="me-3" style={{color: "#FF40FE"}}/>
+                  Visual One Marketing
                 </h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>In the increasingly diversified world of the music business, one needs expertise to navigate through the complexity. It starts with a "VISION”. Let us make your vision come to life through Experience, Commitment, and Strategy.</p>
               </MDBCol>
               <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+                <h6 className="text-uppercase fw-bold mb-4">Info</h6>
                 <p>
                   <a href="#!" className="text-reset">
                     Services
